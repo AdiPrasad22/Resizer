@@ -1,0 +1,12 @@
+{
+  "name": "resize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
